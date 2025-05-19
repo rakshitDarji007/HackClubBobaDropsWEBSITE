@@ -1,98 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a; /* Dark background */
-    color: #f0f0f0; /* Light text color for contrast */
+background-color: white; color: black;
+font-family: Times New Roman;
 }
 
-header {
-    background-color: #c0392b; /* Pizza red color */
-    color: white;
-    padding: 1em 0;
-    text-align: center;
+h1 {
+color: red;
+font-size: 50px; text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+p {font-size: 12px;
 }
 
-#intro {
-    padding: 20px;
-    text-align: center;
-    line-height: 1.6;
+h2 {
+    color: blue; font-size: 30px;
+}
+h3{color:green;
 }
 
-#pizza-types {
-    padding: 20px;
-    text-align: center;
-}
-
-#pizza-types h2 {
-    font-size: 2em;
-    color: #e74c3c; /* Another shade of red/orange */
-    margin-bottom: 30px;
-}
-
-.pizza-item {
-    display: inline-block; /* Arrange items side-by-side */
-    width: 30%; /* Adjust as needed, allowing for margins */
-    margin: 10px;
-    background-color: #2c2c2c; /* Slightly lighter dark shade for item background */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    vertical-align: top; /* Aligns items from the top */
-    padding-bottom: 15px; /* Space for content below image */
-}
-
-.pizza-item img {
-    width: 100%; /* Make image responsive within its container */
-    height: 200px; /* Fixed height for images */
-    object-fit: cover; /* Ensure images cover the area without distortion */
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.pizza-item h3 {
-    color: #e74c3c;
-    margin-top: 15px;
-}
-
-.pizza-item p {
-    padding: 0 15px;
-    font-size: 0.9em;
-    color: #cccccc; /* Lighter grey for description text */
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #0d0d0d;
-    color: #777;
-    margin-top: 30px;
-}
-
-/* Basic responsiveness for smaller screens */
-@media (max-width: 768px) {
-    .pizza-item {
-        width: 45%; /* Two items per row */
-    }
-}
-
-@media (max-width: 480px) {
-    .pizza-item {
-        width: 90%; /* One item per row */
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    #pizza-types h2 {
-        font-size: 1.8em;
-    }
+img { width: 150px;
+ height: 100px;
 }
